@@ -1,0 +1,72 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    background-color: #263b5e;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #263b5e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Lista de módulos */
+.modulos {
+    list-style: none;
+}
+
+.modulos > li {
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* Sublistas */
+.modulos ul {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.modulos ul li {
+    padding: 8px;
+    color: #555;
+    list-style-type: circle;
+}
